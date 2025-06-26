@@ -1,7 +1,5 @@
 # ✈️ Airline Sentiment Analysis using NLP & Machine Learning
 
-------------------
-
 A full-stack Natural Language Processing (NLP) project that classifies airline-related tweets into sentiment categories (Positive, Neutral, Negative) and extracts business insights using Machine Learning.
 
 ---
