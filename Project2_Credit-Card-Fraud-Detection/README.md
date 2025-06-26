@@ -60,8 +60,8 @@ A web-based tool using [Streamlit](https://streamlit.io/) to:
 =====
 
 
-Run it using:
-```bash
+## Run it using:
+## bash
 cd streamlit_app
 streamlit run streamlit_app.py
 
