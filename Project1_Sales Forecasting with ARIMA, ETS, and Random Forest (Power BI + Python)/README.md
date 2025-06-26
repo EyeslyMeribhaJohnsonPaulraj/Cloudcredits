@@ -75,7 +75,7 @@ Cloudcredits/
 ├── rf_predictions.csv                            # Random Forest Forecast (Page 4)
 ├── rf_feature_importance.csv                     # Feature Importance (Page 4)
 ├── submission.csv / test_predictions.csv         # Final predictions for test set
-├── train_enriched_sample.csv                     # Sample enriched training data (<25MB)
+├── train_enriched_sample.csv                     # Feature-engineered sample (<25MB) for dashboard
 ├── Sales_Forecasting_Project_Report_Eyesly.pdf   # 📘 Full project report (PDF)
 ├── README.md                                     # 🔍 This file
 ├── .gitignore                                     # Git ignore rules
@@ -91,7 +91,7 @@ Git & GitHub	Version control and collaboration
 
 📈 Power BI Dashboard Link
 You can view or download the full Power BI dashboard here:
-🔗 Power BI Dashboard Folder (Google Drive)
+🔗 https://drive.google.com/drive/u/0/folders/1SA_Tl1PJRE7xYKICO3M07leajcOfvjiT
 
 📄 Project Report
 A complete project report is included in this repository.
