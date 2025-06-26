@@ -1,5 +1,10 @@
 ✈️ Airline Tweet Sentiment Analysis using NLP and Streamlit
+
+-----
+
 A full-stack NLP project that classifies customer sentiment in airline-related tweets using machine learning and natural language processing, deployed via an interactive Streamlit app. Includes detailed EDA, text cleaning, model evaluation, and multi-page visualizations for insights.
+
+
 ------------------------
 📊 Business Problem
 Airlines receive thousands of customer tweets daily, covering feedback on service quality, flight delays, baggage handling, and overall experience. Manual review is time-consuming and inconsistent.
