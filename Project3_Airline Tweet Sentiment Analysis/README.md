@@ -6,7 +6,7 @@ A full-stack NLP project that classifies customer sentiment in airline-related t
 
 
 ------------------------
-📊 Business Problem
+📊 Business Problem:
 Airlines receive thousands of customer tweets daily, covering feedback on service quality, flight delays, baggage handling, and overall experience. Manual review is time-consuming and inconsistent.
 
 This project automates sentiment classification to help:
