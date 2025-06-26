@@ -104,6 +104,7 @@ Streamlit — Interactive fraud visualization
 Tableau — Dashboard (PDF/PNG provided)
 
 Git & GitHub — Version control and collaboration
+-------------------------
 
 📘 Project Report
 
@@ -119,6 +120,11 @@ SHAP explainability notes
 
 Dashboard walkthrough
 
+
+
+========================
+
+
 👩‍💻 Author
 
 Eyesly Meribha Johnson Paulraj
@@ -126,10 +132,15 @@ Data Scientist | MSc Data Science | Python, Machine Learning, Power BI
 📎 linkedin.com/in/eyesly-meribha-johnson-paulraj-7a8b49221
 
 
+===================================
+
 📄 License
 
 This project is licensed under the MIT License.
 You are free to use, share, and modify with appropriate attribution.
+
+
+=====================================
 
 💼 For Recruiters & Hiring Managers
 
