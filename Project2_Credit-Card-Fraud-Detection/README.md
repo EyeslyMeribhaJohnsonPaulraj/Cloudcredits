@@ -57,11 +57,13 @@ A web-based tool using [Streamlit](https://streamlit.io/) to:
 - Display class distribution
 - Preview suspicious patterns
 
+=====
+
+
 Run it using:
 ```bash
 cd streamlit_app
 streamlit run streamlit_app.py
-📸 Dashboard Visuals
 
 
 =====================
