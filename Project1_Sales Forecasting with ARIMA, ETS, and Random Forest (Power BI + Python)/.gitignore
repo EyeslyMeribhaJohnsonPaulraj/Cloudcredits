@@ -1,0 +1,35 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore large data files
+*.csv
+*.xlsx
+*.zip
+
+# Keep specific CSVs needed
+!forecast_summary.csv
+!rf_predictions.csv
+!rf_feature_importance.csv
+!submission.csv
+!test_predictions.csv
+!train_enriched_sample.csv
+
+# Ignore notebook metadata if needed
+*.nbconvert.ipynb
