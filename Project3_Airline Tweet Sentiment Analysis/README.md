@@ -1,191 +1,137 @@
-✈️ Airline Tweet Sentiment Analysis using NLP and Streamlit
+# ✈️ Airline Sentiment Analysis using NLP & Machine Learning
 
------
+------------------
 
-A full-stack NLP project that classifies customer sentiment in airline-related tweets using machine learning and natural language processing, deployed via an interactive Streamlit app. Includes detailed EDA, text cleaning, model evaluation, and multi-page visualizations for insights.
+A full-stack Natural Language Processing (NLP) project that classifies airline-related tweets into sentiment categories (Positive, Neutral, Negative) and extracts business insights using Machine Learning.
+
+---
+
+## 📊 Business Problem
+
+Airlines receive thousands of social media messages daily, making it difficult to manually analyze customer sentiment. This project builds a sentiment classification system that helps identify:
+
+- Overall brand sentiment
+- Frequent negative feedback categories
+- Trends in customer satisfaction over time
+
+---
+
+## 📁 Dataset Overview
+
+**Source:** [Kaggle – Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
+
+| Column             | Description                                 |
+|--------------------|---------------------------------------------|
+| `text`             | Raw tweet content                           |
+| `airline`          | Airline name                                |
+| `airline_sentiment`| Sentiment (positive, neutral, negative)     |
+| `negativereason`   | Reason for negative feedback (if applicable)|
+
+---
+
+## 🧠 Methodology
+
+1. **Text Cleaning & Preprocessing**
+   - Removed mentions, hashtags, punctuation, digits
+   - Tokenization, stopword removal, lemmatization
+
+2. **Feature Engineering**
+   - TF-IDF vectorization (bi-grams, 5000 features)
+
+3. **Modeling**
+   - Algorithm: Multinomial Naive Bayes
+   - Accuracy: **74.04%**
+
+4. **Evaluation Metrics**
+   - Confusion Matrix
+   - Precision, Recall, F1-Score
+   - Classification Report
+
+---
+
+## 📈 Visual Insights
+
+| Page | Description |
+|------|-------------|
+| 1️⃣   | Accuracy, Confusion Matrix, Classification Report |
+| 2️⃣   | Sentiment Distribution by Airline |
+| 3️⃣   | Top 10 Reasons for Negative Sentiment |
+| 4️⃣   | Sentiment Trends Over Time (Simulated) |
+| 5️⃣   | Streamlit-based Sentiment Classifier UI |
+
+---
+
+## 💻 Web App (Streamlit)
+
+A live classifier built with **Streamlit** that predicts the sentiment of user-input airline tweets.
+
+**Demo Interface:**
+
+```bash
+streamlit run streamlit_app.py
+🧰 Tools & Technologies
+Python (Pandas, NumPy, Scikit-learn, NLTK)
+
+Matplotlib, Seaborn
+
+Streamlit (for deployment)
+
+Git & GitHub
+
+--------------------------
+
+📦 Repository Structure
 
 
-------------------------
-📊 Business Problem:
-Airlines receive thousands of customer tweets daily, covering feedback on service quality, flight delays, baggage handling, and overall experience. Manual review is time-consuming and inconsistent.
-
-This project automates sentiment classification to help:
-
-Improve customer experience
-
-Identify recurring issues
-
-Assist marketing & service teams with real-time sentiment analysis
-
----------------------------------
-
-📁 Dataset Overview
-This project uses the Twitter US Airline Sentiment dataset from Kaggle, including:
-
-airline – Airline mentioned in the tweet
-
-airline_sentiment – Sentiment label (positive, neutral, negative)
-
-text – Raw tweet text
-
-negativereason – Reason for negative feedback (if applicable)
-
-Final features after preprocessing:
-
-clean_text – Cleaned, lemmatized version of tweet
-
-label – Encoded sentiment label (0 = Negative, 1 = Neutral, 2 = Positive)
+Airline-Sentiment-Analysis/
+│
+├── sentiment_analysis_notebook.ipynb     # Full project code
+├── streamlit_app.py                      # Streamlit deployment
+├── sentiment_model.pkl                   # Trained sentiment classifier
+├── tfidf_vectorizer.pkl                  # Saved TF-IDF vectorizer
+├── requirements.txt                      # Python dependencies
+├── LICENSE                               # MIT License
+├── .gitignore                            # Ignored system files
+├── visuals/                              # Images used in README/report
+│   ├── confusion_matrix.png
+│   ├── sentiment_by_airline.png
+│   ├── top_negative_reasons.png
+│   └── sentiment_trends.png
+│
+├── Airline_Sentiment_Report_Eyesly.pdf   # 📘 Full project report
+├── Airline_Sentiment_Presentation_Eyesly.pptx  # 🎞️ PowerPoint slides
+└── README.md                             #
 
 =======================
 
-🔍 Methodology
-1. Text Preprocessing
-Removed links, mentions, punctuation, numbers
+📘 Project Report & Presentation
+📄 Download Full Report (PDF)
 
-Lowercased, tokenized, stopword removed
+🎞️ Download Presentation (PPTX)
 
-Lemmatization using WordNetLemmatizer
-
-2. Feature Extraction
-TF-IDF Vectorizer (max_features=5000, bigrams included)
-
-3. Model Training
-Model: Multinomial Naive Bayes
-
-Dataset split: train_test_split (80/20)
-
-4. Evaluation
-Accuracy: ✅ 0.74
-
-Confusion Matrix
-
-Classification Report with Precision, Recall, F1-Score
-
-=======================================
-
-📈 Visual Analysis Dashboard
-All visuals are stored in the GitHub repo under visualizations/. These represent insights designed for stakeholder review.
-
-Page	Description
-1	✅ Model Accuracy, 📊 Classification Report, 🧮 Confusion Matrix
-2	Per-airline evaluation: accuracy & confusion matrix by airline
-3	📉 Confusion Matrix Heatmap
-4	📊 Sentiment Distribution by Airline
-5	🔺 Top Reasons for Negative Sentiment + 📈 Sentiment Trends Over Time
-
-
-======================================
-
-📦 Repository Contents
-File / Folder	Purpose
-notebooks/01_sentiment_analysis_airlines.ipynb	Jupyter notebook (EDA, modeling, evaluation)
-data/Tweets.csv	Original dataset from Kaggle
-models/sentiment_model.pkl	Trained Naive Bayes classifier
-models/tfidf_vectorizer.pkl	Trained TF-IDF vectorizer
-app/streamlit_app.py	Streamlit app for real-time sentiment prediction
-visualizations/	Sentiment plots & confusion matrix heatmaps
-requirements.txt	Environment dependencies
-README.md	Project documentation (this file)
-.gitignore	Ignored files (e.g., checkpoints, models)
-
-========================
-
-🖥️ Streamlit App
-An interactive app where users can enter any tweet and get a real-time sentiment prediction using the trained model.
-
-=====================================
-🛠 Run Locally:
-bash
-
-pip install -r requirements.txt
-streamlit run app/streamlit_app.py
-
-============================================
-
-📊 Key Results
-✅ Accuracy: 74%
-Sentiment	Precision	Recall	F1-score	Support
-Negative	0.73	0.97	0.84	1835
-Neutral	0.70	0.29	0.41	620
-Positive	0.86	0.42	0.56	473
-
-Model handles negative tweets well, but performance can improve for neutral/positive classes
-
-Top 10 reasons for negative sentiment include: customer service, flight late, baggage, etc.
-
-==============================
-
-🧠 Sample Visuals
-🔹 Sentiment Distribution by Airline
-
-🔹 Top Reasons for Negative Sentiment
-
-🔹 Sentiment Trend Over Time
-
-=======================================================
-
-🛠 Tools Used
-Python: pandas, nltk, scikit-learn, matplotlib, seaborn
-
-NLP: Stopword removal, Lemmatization, TF-IDF
-
-Model: Multinomial Naive Bayes
-
-App: Streamlit
-
-Version Control: Git & GitHub
-
-
-=====================
-
-📘 Project Report
-Jupyter Notebook:
-📂 notebooks/01_sentiment_analysis_airlines.ipynb
-
-Includes:
-
-Data loading
-
-EDA
-
-Preprocessing
-
-Modeling
-
-Evaluation
-
-Visualizations
-
-
-====================
-
+===========
 
 👩‍💻 Author
 Eyesly Meribha Johnson Paulraj
 Data Scientist | MSc Data Science
-📌 Python | 🧠 NLP | 🚀 Streamlit | 📊 Machine Learning
+linkedin.com/in/eyesly-meribha-johnson-paulraj-7a8b49221
 
-🔗 LinkedIn
-
-======================
+======================================
 
 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License – see the LICENSE file for details.
 
-
-==========================
+=======================
 
 💼 For Recruiters & Hiring Managers
 This project showcases:
 
-A full NLP pipeline implementation
+A complete machine learning pipeline
 
-Real-world social media sentiment classification
+Real-world text data analysis
 
-Streamlit-based model deployment
+Business-driven insights
 
-Insightful visualizations for decision-makers
+Deployment-ready code
 
-GitHub-ready, clean documentation & reporting
-
-🔍 Feel free to explore the notebook, app, and visuals. Feedback is welcome!
+Clean documentation and GitHub portfolio structure
