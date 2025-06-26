@@ -1,123 +1,142 @@
 # Sales Forecasting with ARIMA, ETS, and Random Forest
 
-Welcome to the Sales Forecasting project repository! This end-to-end project demonstrates how time series and machine learning models can be used to predict daily product sales across various stores. It combines data science and business intelligence tools like Python, Power BI, and GitHub for seamless analytics delivery.
+A full-stack data science project that demonstrates advanced time series forecasting using classical models (ARIMA, ETS) and machine learning (Random Forest), along with a professional Power BI dashboard.
 
 ---
 
 ## 📊 Business Problem
 
-The goal is to **forecast future sales** across stores and product families using historical data. This helps businesses:
+Retail businesses struggle with accurately forecasting product demand across locations and time. This project forecasts **daily sales** using time series data from Ecuadorian stores.
 
-- Anticipate demand
-- Manage inventory efficiently
-- Plan promotions and operations
+Accurate forecasting helps in:
+- Inventory management
+- Promotions & planning
+- Operational cost reduction
 
 ---
 
 ## 📁 Dataset Overview
 
-The dataset (from [Kaggle's Corporación Favorita dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)) includes:
-
-| File                  | Description                                 |
-|-----------------------|---------------------------------------------|
-| `train.csv`           | Historical daily sales data                 |
-| `test.csv`            | Data for which sales are to be predicted    |
-| `oil.csv`             | Daily oil prices                            |
-| `stores.csv`          | Store metadata (location, type, cluster)    |
-| `transactions.csv`    | Number of transactions per store/day        |
-| `holidays_events.csv` | Local, regional, national holidays/events   |
-| `sample_submission.csv` | Format for submission                     |
+This project uses historical sales data enriched with:
+- 🛢️ Oil prices (`oil.csv`)
+- 🏖️ Holiday events (`holidays_events.csv`)
+- 🏬 Store information (`stores.csv`)
+- 🧾 Transactions (`transactions.csv`)
 
 ---
 
-## 🔍 Project Pipeline
+## 🔍 Methodology
 
-### 1. 🧹 Data Preparation
-- Merged all files into a master dataset.
-- Handled missing values (e.g., forward fill for oil prices).
-- Enriched with time-based features: `year`, `month`, `dayofweek`, `is_weekend`.
+### 1. Data Enrichment
+Combined multiple datasets into one feature-rich training set.
 
-### 2. 📈 Time Series Forecasting
-- **ARIMA**: Used for univariate forecasting based on past sales.
-- **ETS (Exponential Smoothing)**: Captured trend and seasonality.
-- Evaluated using **RMSE**.
+### 2. Feature Engineering
+Created features like:
+- `year`, `month`, `dayofweek`, `is_weekend`
+- Aggregations on transactions and oil prices
 
-### 3. 🤖 Machine Learning
-- Trained **Random Forest Regressor** on aggregated and encoded features.
-- Achieved the **lowest RMSE**, proving ML outperformed classical methods.
+### 3. Forecasting Models
+- **ARIMA** (Auto Regressive Integrated Moving Average)
+- **ETS** (Exponential Smoothing)
+- **Random Forest** Regressor
 
-### 4. 📊 Power BI Dashboard
-Built a 5-page interactive Power BI report covering:
-1. Overview & Business Problem
-2. Data Exploration
-3. Time Series Forecasts (ARIMA & ETS)
-4. Machine Learning Results (Random Forest)
-5. Final Recommendations
+### 4. Model Evaluation (RMSE)
 
----
-
-## 📈 Model Performance (RMSE)
-
-| Model        | RMSE         |
-|--------------|--------------|
-| ARIMA        | 107,251.00   |
-| ETS          | 161,663.76   |
-| **Random Forest** | **371.08** ✅ Best |
+| Model          | RMSE (Lower is better) |
+|----------------|------------------------|
+| ARIMA          | 107,251.00             |
+| ETS            | 161,663.76             |
+| Random Forest  | **264.01** ✅ Best     |
 
 ---
 
-## 📦 Repository Structure
+## 📈 Power BI Dashboard
 
-```bash
-Cloudcredits/
-├── Sales_Forecasting_ARIMA_ETS_RF.ipynb         # Main Python notebook
-├── forecast_summary.csv                          # ARIMA & ETS Forecast (Power BI Page 3)
-├── rf_predictions.csv                            # Random Forest Forecast (Page 4)
-├── rf_feature_importance.csv                     # Feature Importance (Page 4)
-├── submission.csv / test_predictions.csv         # Final predictions for test set
-├── train_enriched_sample.csv                     # Feature-engineered sample (<25MB) for dashboard
-├── Sales_Forecasting_Project_Report_Eyesly.pdf   # 📘 Full project report (PDF)
-├── README.md                                     # 🔍 This file
-├── .gitignore                                     # Git ignore rules
-├── LICENSE                                       # MIT License
-🚀 Tools & Technologies
-Tool	Purpose
-Python	Data analysis and modeling
-Pandas	Data manipulation
-statsmodels	ARIMA, ETS modeling
-scikit-learn	Machine learning (Random Forest)
-Power BI	Dashboard and visualization
-Git & GitHub	Version control and collaboration
+Interactive 5-page dashboard designed for business stakeholders:
 
-📈 Power BI Dashboard Link
-You can view or download the full Power BI dashboard here:
-🔗 https://drive.google.com/drive/u/0/folders/1SA_Tl1PJRE7xYKICO3M07leajcOfvjiT
+1. **Overview & KPIs** — Sales, stores, product families  
+2. **Data Exploration** — Sales by store, family, trends  
+3. **ARIMA/ETS Forecast** — Visual + RMSE comparison  
+4. **RF Forecast** — Actual vs Predicted, Feature Importance  
+5. **Final Insights** — Recommendations for the business  
 
-📄 Project Report
-A complete project report is included in this repository.
-📘 Download PDF Report
+---
 
-It covers everything — from data enrichment, model performance, insights, to recommendations. Highly recommended for recruiters and mentors.
+## 📸 Dashboard Visuals
 
-👩‍💻 Author
-Eyesly Meribha Johnson Paulraj
-📍 Data Scientist | MSc in Data Science | Power BI & ML Expert
-🔗 linkedin.com/in/eyesly-meribha-johnson-paulraj-7a8b49221
+These visuals are available in the GitHub repository under `dashboard_visuals/`:
 
-📄 License
-This project is licensed under the MIT License.
+| Page | Description                          |
+|------|--------------------------------------|
+| 1    | Overview & Business Problem          |
+| 2    | Data Exploration                     |
+| 3    | ARIMA & ETS Forecasting              |
+| 4    | Random Forest Forecast               |
+| 5    | Final Submission & Insights          |
 
-🙋‍♀️ For Recruiters & Reviewers
-This project reflects my hands-on ability in:
+---
 
-Data wrangling & exploration
+## 📦 Repository Contents
 
-Time Series Forecasting
+| File                                      | Purpose                                                    |
+|-----------------------------------------------|--------------------------------------------------------|
+| `Sales_Forecasting_ARIMA_ETS_RF.ipynb`        | Main Jupyter notebook with full code                   |
+| `forecast_summary.csv`                        | Output of ARIMA/ETS predictions for dashboard          |
+| `rf_predictions.csv`                          | Random Forest predictions                              |
+| `rf_feature_importance.csv`                   | Feature importance from RF                             |
+| `submission.csv` / `test_predictions.csv`     | Final predictions for test data                        |
+| `train_enriched_sample.csv`                   | Feature-engineered sample (<25MB) for dashboard        |
+| `Sales_Forecasting_Project_Report_Eyesly.pdf` | 📘 Full project report for recruiters                  |
+| `dashboard_visuals/`                          | Screenshots of each Power BI page (JPG/PNG format)     |
+| `README.md`                                   | This file — full project overview                      |
+| `.gitignore`                                  | Ignoring temp, logs, checkpoints                       |
+| `LICENSE`                                     | MIT License                                            |
 
-Machine Learning modeling
+---
 
-Dashboard storytelling via Power BI
+## 🛠️ Tools Used
 
-GitHub documentation
+- **Python** — pandas, scikit-learn, statsmodels
+- **Power BI** — dashboard visualizations
+- **Git & GitHub** — version control & collaboration
 
-Please feel free to explore this repository, or reach out via LinkedIn for collaboration or hiring opportunities.
+---
+
+## 📘 Project Report
+
+A complete project report is included:
+📄 [Download Report (PDF)](Sales_Forecasting_Project_Report_Eyesly.pdf)
+
+Covers:
+- Data exploration
+- Feature engineering
+- Time series modeling
+- ML insights
+- Power BI dashboard explanation
+
+---
+
+## 👩‍💻 Author
+
+**Eyesly Meribha Johnson Paulraj**  
+Data Scientist | MSc Data Science | Python, Power BI, Time Series  
+📎 [LinkedIn](https://www.linkedin.com/in/eyesly-meribha-johnson-paulraj-7a8b49221)  
+📂 [Power BI Dashboard Folder](https://drive.google.com/drive/u/0/folders/1SA_Tl1PJRE7xYKICO3M07leajcOfvjiT)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 💼 For Recruiters & Hiring Managers
+
+This project showcases:
+- Complete ML pipeline implementation
+- Business-oriented dashboard storytelling
+- Real-world forecasting problem-solving
+- End-to-end documentation & GitHub portfolio readiness
+
+Please feel free to explore the notebook, dashboard, and report. Feedback is welcome!
