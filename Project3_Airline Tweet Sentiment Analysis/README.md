@@ -97,16 +97,18 @@ Airline-Sentiment-Analysis/
 │   └── sentiment_trends.png
 │
 ├── Airline_Sentiment_Report_Eyesly.pdf   # 📘 Full project report
-├── Airline_Sentiment_Presentation_Eyesly.pptx  # 🎞️ PowerPoint slides
-└── README.md                             #
+└── README.md                             
 
 =======================
 
 📘 Project Report & Presentation
 📄 Download Full Report (PDF)
 
-🎞️ Download Presentation (PPTX)
+🎞️ Presentation (PPTX)
 
+Explore the complete presentation of this project here:  
+👉 [Airline Sentiment Analysis using NLP & Machine Learning](https://gamma.app/docs/Airline-Sentiment-Analysis-using-NLP-Machine-Learning-gs99nc7kj2gmhfx)
+ 
 ===========
 
 👩‍💻 Author
