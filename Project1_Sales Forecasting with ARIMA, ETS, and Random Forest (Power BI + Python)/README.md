@@ -116,6 +116,13 @@ Covers:
 
 ---
 
+## 📊 Project Presentation
+
+Explore the complete presentation of this project here:  
+👉 [Sales Forecasting for Retail using ARIMA, ETS, and Random Forest](https://gamma.app/docs/Sales-Forecasting-for-Retail-using-ARIMA-ETS-and-Random-Forest-en841ffzrm5g4dm)
+
+------------
+
 ## 👩‍💻 Author
 
 **Eyesly Meribha Johnson Paulraj**  
