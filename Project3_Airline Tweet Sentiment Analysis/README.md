@@ -107,7 +107,7 @@ Airline-Sentiment-Analysis/
 🎞️ Presentation (PPTX)
 
 Explore the complete presentation of this project here:  
-👉 [Airline Sentiment Analysis using NLP & Machine Learning](https://gamma.app/docs/Airline-Sentiment-Analysis-using-NLP-Machine-Learning-gs99nc7kj2gmhfx)
+👉 [Airline Sentiment Analysis using NLP & Machine Learning] (https://gamma.app/docs/Airline-Sentiment-Analysis-using-NLP-Machine-Learning-gs99nc7kj2gmhfx)
  
 ===========
 
