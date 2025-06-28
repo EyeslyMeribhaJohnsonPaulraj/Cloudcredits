@@ -1,21 +1,21 @@
-# 🛡️ Credit Card Fraud Detection with Random Forest & SHAP
+#  Credit Card Fraud Detection with Random Forest & SHAP
 An end-to-end data science project that applies machine learning techniques to detect fraudulent credit card transactions. The project includes preprocessing imbalanced data, model training, evaluation with recall-focused metrics, and a reporting dashboard.
 
 ---
 
-📊 **Business Problem**
+## Business Problem
 
 Credit card fraud causes major losses for financial institutions and customers. Detecting fraud early helps prevent unauthorized access and financial crimes.  
 This project builds a classification model that flags potentially fraudulent transactions using historical, anonymized credit card data.
 
-**Goals:**
+## Goals:
 - Maximize fraud detection recall
 - Minimize false negatives
 - Provide explainable AI outputs to support fraud analysts
 
 ---
 
-📁 **Dataset Overview**
+## Dataset Overview
 
 This project uses anonymized transaction data from Kaggle:
 
@@ -27,7 +27,7 @@ This project uses anonymized transaction data from Kaggle:
 
 ---
 
-🔍 **Methodology**
+## 🔍Methodology
 
 1. **Exploratory Data Analysis (EDA)**
    - Visualize class imbalance
@@ -49,7 +49,7 @@ This project uses anonymized transaction data from Kaggle:
 
 ---
 
-📈 **Streamlit App**
+## 📈 Streamlit App
 
 A web-based tool using [Streamlit](https://streamlit.io/) to:
 
