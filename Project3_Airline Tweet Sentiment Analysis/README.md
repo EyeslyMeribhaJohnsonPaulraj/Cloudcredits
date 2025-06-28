@@ -1,10 +1,10 @@
-# ✈️ Airline Sentiment Analysis using NLP & Machine Learning
+# Airline Sentiment Analysis using NLP & Machine Learning
 
 A full-stack Natural Language Processing (NLP) project that classifies airline-related tweets into sentiment categories (Positive, Neutral, Negative) and extracts business insights using Machine Learning.
 
 ---
 
-## 📊 Business Problem
+## Business Problem
 
 Airlines receive thousands of social media messages daily, making it difficult to manually analyze customer sentiment. This project builds a sentiment classification system that helps identify:
 
@@ -27,7 +27,7 @@ Airlines receive thousands of social media messages daily, making it difficult t
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 1. **Text Cleaning & Preprocessing**
    - Removed mentions, hashtags, punctuation, digits
@@ -59,7 +59,7 @@ Airlines receive thousands of social media messages daily, making it difficult t
 
 ---
 
-## 💻 Web App (Streamlit)
+## Web App (Streamlit)
 
 A live classifier built with **Streamlit** that predicts the sentiment of user-input airline tweets.
 
@@ -127,11 +127,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 This project showcases:
 
 A complete machine learning pipeline
-
 Real-world text data analysis
-
 Business-driven insights
-
 Deployment-ready code
-
 Clean documentation and GitHub portfolio structure
