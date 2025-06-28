@@ -4,7 +4,7 @@ A full-stack data science project that demonstrates advanced time series forecas
 
 ---
 
-## 📊 Business Problem
+## Business Problem
 
 Retail businesses struggle with accurately forecasting product demand across locations and time. This project forecasts **daily sales** using time series data from Ecuadorian stores.
 
