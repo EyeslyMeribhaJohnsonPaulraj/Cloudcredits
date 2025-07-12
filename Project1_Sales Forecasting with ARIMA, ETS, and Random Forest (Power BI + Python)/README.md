@@ -48,6 +48,10 @@ Created features like:
 | ETS            | 161,663.76             |
 | Random Forest  | **264.01** ✅ Best     |
 
+
+🔍 Note:
+Random Forest achieved an RMSE of 371.08 on a 10,000-row sample in Jupyter Notebook, and 264.01 on the full validation dataset in Power BI, confirming strong model performance and consistency across tools.
+
 ---
 
 ## 📈 Power BI Dashboard
