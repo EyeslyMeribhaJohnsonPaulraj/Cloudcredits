@@ -85,20 +85,16 @@ ETS	           | 161,663
 
 Random Forest	 | 264.01 (Best Performance)
 
-The Random Forest model significantly outperformed traditional models, demonstrating strong predictive accuracy.
+The Random Forest model significantly outperformed traditional statistical models, demonstrating strong predictive accuracy and consistent performance across validation datasets.
 
 ---------------------------------------------------------------------------------------------------------------------------
 💼 Business Impact
 ---------------------------------------------------------------------------------------------------------------------------
 This forecasting system can help businesses:
-
-Reduce overstocking (estimated 20–30%)
-
-Improve demand prediction accuracy
-
-Reduce operational and inventory costs
-
-Enable better business decision-making
+- Reduce overstocking (estimated 20–30%) and improve demand planning efficiency  
+- Improve demand prediction accuracy  
+- Reduce operational and inventory costs  
+- Enable better business decision-making  
 
 ---------------------------------------------------------------------------------------------------------------------------
 
