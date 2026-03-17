@@ -100,6 +100,7 @@ Improve demand prediction accuracy
 Reduce operational and inventory costs
 
 Enable better business decision-making
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 📊 Dashboard
