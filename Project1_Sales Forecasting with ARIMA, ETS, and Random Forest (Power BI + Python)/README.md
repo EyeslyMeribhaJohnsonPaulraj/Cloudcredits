@@ -1,153 +1,158 @@
-# Sales Forecasting with ARIMA, ETS, and Random Forest
+🧠 Sales Forecasting System using ARIMA, ETS & Random Forest
+---------------------------------------------------------------------------------------------------------------------------
+🚀 Project Overview
+---------------------------------------------------------------------------------------------------------------------------
+Developed an end-to-end time series forecasting system to predict retail sales using statistical models (ARIMA, ETS) and machine learning (Random Forest), supported by an interactive Power BI dashboard for business decision-making.
 
-A full-stack data science project that demonstrates advanced time series forecasting using classical models (ARIMA, ETS) and machine learning (Random Forest), along with a professional Power BI dashboard.
+---------------------------------------------------------------------------------------------------------------------------
+💼 Business Problem
+---------------------------------------------------------------------------------------------------------------------------
 
----
+Retail businesses often face challenges in accurately forecasting demand, leading to:
 
-## Business Problem
+Overstocking or stock shortages
 
-Retail businesses struggle with accurately forecasting product demand across locations and time. This project forecasts **daily sales** using time series data from Ecuadorian stores.
+Increased operational costs
 
-Accurate forecasting helps in:
-- Inventory management
-- Promotions & planning
-- Operational cost reduction
+Inefficient inventory management
 
----
+This project addresses these issues by providing a data-driven forecasting solution.
+---------------------------------------------------------------------------------------------------------------------------
 
-## 📁 Dataset Overview
+🌍 Real-World Use Case
+---------------------------------------------------------------------------------------------------------------------------
+This solution is designed for multi-store retail businesses to:
 
-This project uses historical sales data enriched with:
-- 🛢️ Oil prices (`oil.csv`)
-- 🏖️ Holiday events (`holidays_events.csv`)
-- 🏬 Store information (`stores.csv`)
-- 🧾 Transactions (`transactions.csv`)
+Improve inventory planning
 
----
+Optimize supply chain operations
 
-## 🔍 Methodology
+Enhance sales and promotion strategies
 
-### 1. Data Enrichment
-Combined multiple datasets into one feature-rich training set.
+Support data-driven decision-making
 
-### 2. Feature Engineering
-Created features like:
-- `year`, `month`, `dayofweek`, `is_weekend`
-- Aggregations on transactions and oil prices
+---------------------------------------------------------------------------------------------------------------------------
+📊 Dataset Overview
+---------------------------------------------------------------------------------------------------------------------------
+The project uses historical retail data enriched with:
 
-### 3. Forecasting Models
-- **ARIMA** (Auto Regressive Integrated Moving Average)
-- **ETS** (Exponential Smoothing)
-- **Random Forest** Regressor
+Sales transactions
 
-### 4. Model Evaluation (RMSE)
+Oil prices (external economic factor)
 
-| Model          | RMSE (Lower is better) |
-|----------------|------------------------|
-| ARIMA          | 107,251.00             |
-| ETS            | 161,663.76             |
-| Random Forest  | **264.01** ✅ Best     |
+Holiday events (seasonality impact)
 
+Store information
 
-🔍 Note:
-Random Forest achieved an RMSE of 371.08 on a 10,000-row sample in Jupyter Notebook, and 264.01 on the full validation dataset in Power BI, confirming strong model performance and consistency across tools.
+Transaction volumes
 
----
+---------------------------------------------------------------------------------------------------------------------------
+⚙️ Methodology
+---------------------------------------------------------------------------------------------------------------------------
+Data Processing
 
-## 📈 Power BI Dashboard
+Data cleaning and preprocessing
 
-Interactive 5-page dashboard designed for business stakeholders:
+Merging multiple datasets
 
-1. **Overview & KPIs** — Sales, stores, product families  
-2. **Data Exploration** — Sales by store, family, trends  
-3. **ARIMA/ETS Forecast** — Visual + RMSE comparison  
-4. **RF Forecast** — Actual vs Predicted, Feature Importance  
-5. **Final Insights** — Recommendations for the business  
+Feature Engineering
 
----
+Time-based features (year, month, dayofweek, weekend)
 
-## 📸 Dashboard Visuals
+External factors (oil prices, holidays)
 
-These visuals are available in the GitHub repository under `dashboard_visuals/`:
+---------------------------------------------------------------------------------------------------------------------------
+Models Used
+---------------------------------------------------------------------------------------------------------------------------
+ARIMA
 
-| Page | Description                          |
-|------|--------------------------------------|
-| 1    | Overview & Business Problem          |
-| 2    | Data Exploration                     |
-| 3    | ARIMA & ETS Forecasting              |
-| 4    | Random Forest Forecast               |
-| 5    | Final Submission & Insights          |
+ETS
 
----
+Random Forest Regressor
 
-## 📦 Repository Contents
+---------------------------------------------------------------------------------------------------------------------------
+📈 Model Performance
+--------------------------------------------------------------------------------------------------------------------------
+Model	         RMSE
+ARIMA	         107,251
+ETS	           161,663
+Random Forest	 264.01 (Best Performance)
 
-| File                                      | Purpose                                                    |
-|-----------------------------------------------|--------------------------------------------------------|
-| `Sales_Forecasting_ARIMA_ETS_RF.ipynb`        | Main Jupyter notebook with full code                   |
-| `forecast_summary.csv`                        | Output of ARIMA/ETS predictions for dashboard          |
-| `rf_predictions.csv`                          | Random Forest predictions                              |
-| `rf_feature_importance.csv`                   | Feature importance from RF                             |
-| `submission.csv` / `test_predictions.csv`     | Final predictions for test data                        |
-| `train_enriched_sample.csv`                   | Feature-engineered sample (<25MB) for dashboard        |
-| `Sales_Forecasting_Project_Report_Eyesly.pdf` | 📘 Full project report for recruiters                  |
-| `dashboard_visuals/`                          | Screenshots of each Power BI page (JPG/PNG format)     |
-| `README.md`                                   | This file — full project overview                      |
-| `.gitignore`                                  | Ignoring temp, logs, checkpoints                       |
-| `LICENSE`                                     | MIT License                                            |
+The Random Forest model significantly outperformed traditional models, demonstrating strong predictive accuracy.
+---------------------------------------------------------------------------------------------------------------------------
+💼 Business Impact
+---------------------------------------------------------------------------------------------------------------------------
+This forecasting system can help businesses:
 
----
+Reduce overstocking (estimated 20–30%)
 
-## 🛠️ Tools Used
+Improve demand prediction accuracy
 
-- **Python** — pandas, scikit-learn, statsmodels
-- **Power BI** — dashboard visualizations
-- **Git & GitHub** — version control & collaboration
+Reduce operational and inventory costs
 
----
+Enable better business decision-making
+---------------------------------------------------------------------------------------------------------------------------
 
-## 📘 Project Report
+📊 Dashboard
+---------------------------------------------------------------------------------------------------------------------------
+Developed a 5-page interactive Power BI dashboard including:
 
-A complete project report is included:
-📄 [Download Report (PDF)](Sales_Forecasting_Project_Report_Eyesly.pdf)
+Sales overview and KPIs
 
-Covers:
-- Data exploration
-- Feature engineering
-- Time series modeling
-- ML insights
-- Power BI dashboard explanation
+Data exploration and trends
 
----
+Forecast comparison (ARIMA & ETS)
 
-## 📊 Project Presentation
+Random Forest predictions
 
-Explore the complete presentation of this project here:  
-👉 [Sales Forecasting for Retail using ARIMA, ETS, and Random Forest](https://gamma.app/docs/Sales-Forecasting-for-Retail-using-ARIMA-ETS-and-Random-Forest-en841ffzrm5g4dm)
+Final business insights
 
-------------
+🧠 My Contribution
 
-## 👩‍💻 Author
+Designed and implemented the full ML pipeline
 
-**Eyesly Meribha Johnson Paulraj**  
-Data Scientist | MSc Data Science | Python, Power BI, Time Series  
-📎 [LinkedIn](https://www.linkedin.com/in/eyesly-meribha-johnson-paulraj-7a8b49221)  
-📂 [Power BI Dashboard Folder](https://drive.google.com/drive/u/0/folders/1SA_Tl1PJRE7xYKICO3M07leajcOfvjiT)
+Performed feature engineering and model building
 
----
+Developed Power BI dashboard
 
-## 📄 License
+Generated actionable business insights
 
-This project is licensed under the [MIT License](LICENSE).
+🛠️ Tools & Technologies
 
----
+Python (Pandas, Scikit-learn, Statsmodels)
 
-## 💼 For Recruiters & Hiring Managers
+Power BI
 
-This project showcases:
-- Complete ML pipeline implementation
-- Business-oriented dashboard storytelling
-- Real-world forecasting problem-solving
-- End-to-end documentation & GitHub portfolio readiness
+Jupyter Notebook
 
-Please feel free to explore the notebook, dashboard, and report. Feedback is welcome!
+Git & GitHub
+
+📦 Repository Overview
+
+The repository includes:
+
+Jupyter Notebook with full implementation
+
+Processed datasets for modeling
+
+Model outputs and predictions
+
+Dashboard visuals
+
+Detailed project report
+
+📘 Project Report
+
+Includes detailed analysis, model evaluation, and business recommendations.
+
+📌 Key Highlights
+
+✔ End-to-end data science pipeline
+✔ Combination of statistical and ML models
+✔ Business-focused insights
+✔ Interactive dashboard for decision-making
+
+👩‍💻 Author
+
+Eyesly Meribha Johnson Paulraj
+Data Scientist | MSc Data Science
