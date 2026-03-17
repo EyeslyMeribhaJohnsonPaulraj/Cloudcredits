@@ -76,9 +76,11 @@ Random Forest Regressor
 Model	         | RMSE
 --------------------------
 ARIMA	         | 107,251
+--------------------------
 ETS	           | 161,663
+--------------------------
 Random Forest	 | 264.01 (Best Performance)
-
+-------------------------------------------
 ----
 The Random Forest model significantly outperformed traditional models, demonstrating strong predictive accuracy.
 ---------------------------------------------------------------------------------------------------------------------------
