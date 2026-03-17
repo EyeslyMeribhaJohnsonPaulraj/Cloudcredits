@@ -17,6 +17,7 @@ Increased operational costs
 Inefficient inventory management
 
 This project addresses these issues by providing a data-driven forecasting solution.
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 🌍 Real-World Use Case
@@ -86,6 +87,7 @@ Random Forest	 | 264.01 (Best Performance)
 -------------------------------------------
 
 The Random Forest model significantly outperformed traditional models, demonstrating strong predictive accuracy.
+
 ---------------------------------------------------------------------------------------------------------------------------
 💼 Business Impact
 ---------------------------------------------------------------------------------------------------------------------------
@@ -114,8 +116,9 @@ Random Forest predictions
 
 Final business insights
 
+---------------------------------------------------------------------------------------------------------------------------
 🧠 My Contribution
-
+---------------------------------------------------------------------------------------------------------------------------
 Designed and implemented the full ML pipeline
 
 Performed feature engineering and model building
@@ -124,8 +127,10 @@ Developed Power BI dashboard
 
 Generated actionable business insights
 
-🛠️ Tools & Technologies
+---------------------------------------------------------------------------------------------------------------------------
 
+🛠️ Tools & Technologies
+---------------------------------------------------------------------------------------------------------------------------
 Python (Pandas, Scikit-learn, Statsmodels)
 
 Power BI
@@ -134,8 +139,9 @@ Jupyter Notebook
 
 Git & GitHub
 
+---------------------------------------------------------------------------------------------------------------------------
 📦 Repository Overview
-
+---------------------------------------------------------------------------------------------------------------------------
 The repository includes:
 
 Jupyter Notebook with full implementation
@@ -148,17 +154,20 @@ Dashboard visuals
 
 Detailed project report
 
+---------------------------------------------------------------------------------------------------------------------------
 📘 Project Report
-
+---------------------------------------------------------------------------------------------------------------------------
 Includes detailed analysis, model evaluation, and business recommendations.
 
+---------------------------------------------------------------------------------------------------------------------------
 📌 Key Highlights
-
+---------------------------------------------------------------------------------------------------------------------------
 ✔ End-to-end data science pipeline
 ✔ Combination of statistical and ML models
 ✔ Business-focused insights
 ✔ Interactive dashboard for decision-making
 
+---------------------------------------------------------------------------------------------------------------------------
 👩‍💻 Author
 
 Eyesly Meribha Johnson Paulraj
