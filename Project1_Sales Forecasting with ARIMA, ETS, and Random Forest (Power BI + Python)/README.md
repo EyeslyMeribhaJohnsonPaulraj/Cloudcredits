@@ -163,12 +163,15 @@ Includes detailed analysis, model evaluation, and business recommendations.
 📌 Key Highlights
 ---------------------------------------------------------------------------------------------------------------------------
 ✔ End-to-end data science pipeline
+
 ✔ Combination of statistical and ML models
+
 ✔ Business-focused insights
+
 ✔ Interactive dashboard for decision-making
 
 ---------------------------------------------------------------------------------------------------------------------------
 👩‍💻 Author
 
-Eyesly Meribha Johnson Paulraj
-Data Scientist | MSc Data Science
+Eyesly Meribha Johnson Paulraj |
+Data Scientist 
