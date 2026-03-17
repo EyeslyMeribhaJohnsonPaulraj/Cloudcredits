@@ -117,7 +117,9 @@ Random Forest predictions
 
 Final business insights
 
----------------------------------------------------------------------------------------------------------------------------🚀 Implementation
+---------------------------------------------------------------------------------------------------------------------------
+
+🚀 Implementation
 --------------------------------------------------------------------------------------------------------------------------
 This project was implemented as a prototype end-to-end forecasting system combining machine learning models with an interactive Power BI dashboard.
 It demonstrates how retail businesses can integrate predictive analytics into their operational workflows for data-driven decision-making.
