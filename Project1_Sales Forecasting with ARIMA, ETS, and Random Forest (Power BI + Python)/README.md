@@ -9,58 +9,40 @@ Developed an end-to-end time series forecasting system to predict retail sales u
 ---------------------------------------------------------------------------------------------------------------------------
 
 Retail businesses often face challenges in accurately forecasting demand, leading to:
-
-Overstocking or stock shortages
-
-Increased operational costs
-
-Inefficient inventory management
-
-This project addresses these issues by providing a data-driven forecasting solution.
+- Overstocking or stock shortages
+- Increased operational costs
+- Inefficient inventory management
+- This project addresses these issues by providing a data-driven forecasting solution.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 🌍 Real-World Use Case
 ---------------------------------------------------------------------------------------------------------------------------
 This solution is designed for multi-store retail businesses to:
-
-Improve inventory planning
-
-Optimize supply chain operations
-
-Enhance sales and promotion strategies
-
-Support data-driven decision-making
+- Improve inventory planning
+- Optimize supply chain operations
+- Enhance sales and promotion strategies
+- Support data-driven decision-making
 
 ---------------------------------------------------------------------------------------------------------------------------
 📊 Dataset Overview
 ---------------------------------------------------------------------------------------------------------------------------
 The project uses historical retail data enriched with:
-
-Sales transactions
-
-Oil prices (external economic factor)
-
-Holiday events (seasonality impact)
-
-Store information
-
-Transaction volumes
+- Sales transactions
+- Oil prices (external economic factor)
+- Holiday events (seasonality impact)
+- Store information
+- Transaction volumes
 
 ---------------------------------------------------------------------------------------------------------------------------
 ⚙️ Methodology
 ---------------------------------------------------------------------------------------------------------------------------
-Data Processing
-
-Data cleaning and preprocessing
-
-Merging multiple datasets
-
-Feature Engineering
-
-Time-based features (year, month, dayofweek, weekend)
-
-External factors (oil prices, holidays)
+- Data Processing
+- Data cleaning and preprocessing
+- Merging multiple datasets
+- Feature Engineering
+- Time-based features (year, month, dayofweek, weekend)
+- External factors (oil prices, holidays)
 
 ---------------------------------------------------------------------------------------------------------------------------
 Models Used
@@ -87,6 +69,11 @@ Random Forest	 | 264.01 (Best Performance)
 
 The Random Forest model significantly outperformed traditional statistical models, demonstrating strong predictive accuracy and consistent performance across validation datasets.
 
+--------------------
+📌 Key Insight
+----------------------------------------------------------------------------------------------------------------------------
+The comparison of statistical and machine learning models highlights the advantage of ensemble methods in handling complex, non-linear retail demand patterns, making Random Forest a more effective solution for this use case.
+
 ---------------------------------------------------------------------------------------------------------------------------
 💼 Business Impact
 ---------------------------------------------------------------------------------------------------------------------------
@@ -101,43 +88,34 @@ This forecasting system can help businesses:
 📊 Dashboard
 ---------------------------------------------------------------------------------------------------------------------------
 Developed a 5-page interactive Power BI dashboard including:
-
-Sales overview and KPIs
-
-Data exploration and trends
-
-Forecast comparison (ARIMA & ETS)
-
-Random Forest predictions
-
-Final business insights
+- Sales overview and KPIs
+- Data exploration and trends
+- Forecast comparison (ARIMA & ETS)
+- Random Forest predictions
+- Final business insights
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 🚀 Implementation
 --------------------------------------------------------------------------------------------------------------------------
-This project was implemented as a prototype end-to-end forecasting system combining machine learning models with an interactive Power BI dashboard.
-It demonstrates how retail businesses can integrate predictive analytics into their operational workflows for data-driven decision-making.
+This project was implemented as a prototype end-to-end forecasting system combining machine learning models with an interactive Power BI dashboard.  
+It demonstrates how predictive analytics can be integrated into retail operational workflows to support data-driven decision-making.
 
 -----------------------------------------------------
 📊 Business Value
 ---------------------------------------------------------------------------------------------------------------------------
-This project highlights how data science solutions can support business stakeholders in making strategic decisions.
-The forecasting system provides actionable insights that can improve inventory planning, reduce operational risks, and enhance overall business efficiency.
+This project demonstrates how data science solutions can support business stakeholders in making strategic and operational decisions.
+The forecasting system provides actionable insights that enhance inventory planning, reduce operational risks, and improve overall business efficiency.
 
 ----
 
 🔮 Future Scope
 ---------------------------------------------------------------------------------------------------------------------------
 This system can be further extended to:
-
-Real-time forecasting using streaming data
-
-Deployment on cloud platforms such as AWS or Azure
-
-Integration with enterprise systems (ERP / supply chain tools)
-
-Automated retraining pipelines for continuous model improvement
+- Real-time forecasting using streaming data
+- Deployment on cloud platforms such as AWS or Azure
+- Integration with enterprise systems (ERP / supply chain tools)
+- Automated retraining pipelines for continuous model improvement
 
 -------------------------------------------------------------------------------------------------------------------------
 🔗 LinkedIn
@@ -153,40 +131,29 @@ Automated retraining pipelines for continuous model improvement
 ---------------------------------------------------------------------------------------------------------------------------
 🧠 My Contribution
 ---------------------------------------------------------------------------------------------------------------------------
-Designed and implemented the full ML pipeline
-
-Performed feature engineering and model building
-
-Developed Power BI dashboard
-
-Generated actionable business insights
+- Designed and implemented the full ML pipeline
+- Performed feature engineering and model building
+- Developed Power BI dashboard
+- Generated actionable business insights
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tools & Technologies
 ---------------------------------------------------------------------------------------------------------------------------
-Python (Pandas, Scikit-learn, Statsmodels)
-
-Power BI
-
-Jupyter Notebook
-
-Git & GitHub
+- Python (Pandas, Scikit-learn, Statsmodels)
+- Power BI
+- Jupyter Notebook
+- Git & GitHub
 
 ---------------------------------------------------------------------------------------------------------------------------
 📦 Repository Overview
 ---------------------------------------------------------------------------------------------------------------------------
 The repository includes:
-
-Jupyter Notebook with full implementation
-
-Processed datasets for modeling
-
-Model outputs and predictions
-
-Dashboard visuals
-
-Detailed project report
+- Jupyter Notebook with full implementation
+- Processed datasets for modeling
+- Model outputs and predictions
+- Dashboard visuals
+- Detailed project report
 
 ---------------------------------------------------------------------------------------------------------------------------
 📘 Project Report
