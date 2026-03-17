@@ -84,7 +84,6 @@ ETS	           | 161,663
 
 
 Random Forest	 | 264.01 (Best Performance)
--------------------------------------------
 
 The Random Forest model significantly outperformed traditional models, demonstrating strong predictive accuracy.
 
@@ -130,7 +129,8 @@ It demonstrates how retail businesses can integrate predictive analytics into th
 This project highlights how data science solutions can support business stakeholders in making strategic decisions.
 The forecasting system provides actionable insights that can improve inventory planning, reduce operational risks, and enhance overall business efficiency.
 
---
+----
+
 🔮 Future Scope
 ---------------------------------------------------------------------------------------------------------------------------
 This system can be further extended to:
