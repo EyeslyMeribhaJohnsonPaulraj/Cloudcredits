@@ -146,7 +146,7 @@ Automated retraining pipelines for continuous model improvement
 -------------------------------------------------------------------------------------------------------------------------
 🔗 LinkedIn
 -------------------------------------------------------------
-🔗 LinkedIn: https://www.linkedin.com/in/YOUR-PROFILE
+🔗 LinkedIn: https://www.linkedin.com/in/eyesly-meribha-johnson-paulraj/
 
 ---------------------------------------------------------------------------------------------------------------------------
 
