@@ -92,7 +92,7 @@ Developed a 5-page interactive Power BI dashboard designed for business stakehol
 
 The dashboard enables real-time visualization and strategic decision support.
 
---
+-------------------------------
 📊 Practical Application Scenario
 --------------------
 This system was tested on real-world retail datasets and simulates deployment in a production-like environment.
@@ -103,7 +103,7 @@ It demonstrates how predictive analytics solutions can be integrated into busine
 -----------------------
 Based on model performance, businesses should adopt machine learning-based forecasting models such as Random Forest over traditional statistical methods when dealing with complex, high-dimensional retail data.
 
----
+---------------------------------
 🚀 Implementation
 ------------------------
 This project was implemented as a prototype end-to-end forecasting system, combining:
