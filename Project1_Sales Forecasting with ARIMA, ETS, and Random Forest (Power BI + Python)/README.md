@@ -5,7 +5,7 @@
 
 Developed an end-to-end retail sales forecasting system using statistical models (ARIMA, ETS) and machine learning (Random Forest), supported by an interactive Power BI dashboard.
 The solution demonstrates how predictive analytics can be applied to real-world retail operations for data-driven decision-making.
-This project was independently designed and developed to demonstrate advanced data science capabilities in solving real-world business problems.
+This project was independently designed and developed to demonstrate advanced data science capabilities in solving real-world business challenges.
 
 --------------------------
 💼 Business Problem
@@ -70,7 +70,7 @@ This multi-source dataset enables robust and realistic forecasting.
 | Random Forest | **264.01 (Best Performance)** |
 
 
-The Random Forest model significantly outperformed traditional statistical models, demonstrating high predictive accuracy and strong capability in handling complex, non-linear retail demand patterns.
+The Random Forest model significantly outperformed traditional statistical models, reducing forecasting error and demonstrating high predictive accuracy in handling complex, non-linear retail demand patterns.
 
 ---
 📌 Key Insight
@@ -112,6 +112,7 @@ This project was implemented as a prototype end-to-end forecasting system, combi
 - Business intelligence visualization
 
 It reflects how analytics solutions can be deployed to support real-world operational decision-making.
+The system design follows a modular and scalable architecture, making it suitable for production deployment in enterprise environments.
 
 ---
 🔮 Scalability & Future Scope
