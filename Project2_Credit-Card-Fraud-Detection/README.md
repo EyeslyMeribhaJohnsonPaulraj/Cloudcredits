@@ -1,4 +1,4 @@
-🧠 Credit Card Fraud Detection using Random Forest & SHAP
+Credit Card Fraud Detection using Random Forest & SHAP
 ---------------------------------
 🚀 Project Overview
 ------------
