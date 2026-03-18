@@ -109,7 +109,7 @@ My responsibilities included:
 - Handling class imbalance
 - Performing model evaluation
 - Applying SHAP for explainability
-- Developing dashboard and insights
+- Developing a dashboard and generating insights
 --------------------------------------
 🛠️ Tools & Technologies
 --------------------------------------
