@@ -60,7 +60,7 @@ Handling class imbalance and optimizing recall is critical in fraud detection, a
 -------------------------------
 💼 Business Impact
 ------------------------
- This solution demonstrates measurable potential to:
+This solution demonstrates measurable potential to:
 - Detect fraudulent transactions effectively
 - Reduce financial losses for institutions
 - Improve fraud monitoring systems
