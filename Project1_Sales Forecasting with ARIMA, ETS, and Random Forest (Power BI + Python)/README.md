@@ -5,7 +5,7 @@
 
 Developed an end-to-end retail sales forecasting system using statistical models (ARIMA, ETS) and machine learning (Random Forest), supported by an interactive Power BI dashboard.
 The solution demonstrates how predictive analytics can be applied to real-world retail operations for data-driven decision-making.
-This project was independently designed and developed to demonstrate advanced data science capabilities in solving real-world business challenges.
+This project was developed as part of a professional internship, where I contributed to designing and implementing the forecasting pipeline and data analysis components.
 
 --------------------------
 💼 Business Problem
