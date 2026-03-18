@@ -22,11 +22,14 @@ This project addresses these challenges by building a data-driven forecasting so
 
 This system is designed for multi-store retail environments and simulates deployment in real-world business settings.
 
-It demonstrates how forecasting models can be integrated into operational workflows to:
+It demonstrates how predictive analytics solutions can be integrated into operational workflows to:
 - Optimize inventory management
 - Improve supply chain efficiency
 - Enhance promotional planning
 - Enable data-driven strategic decisions
+
+The system was tested on real-world retail datasets and demonstrates how forecasting models can be applied in production-like environments to support demand planning and operational decision-making.
+
 -------------------------------------------------------------------
 📊 Dataset Overview
 ------------------------------
@@ -95,12 +98,6 @@ Developed a 5-page interactive Power BI dashboard designed for business stakehol
 The dashboard enables real-time visualization and strategic decision support.
 
 -------------------------------
-📊 Practical Application Scenario
---------------------
-This system was tested on real-world retail datasets and simulates deployment in a production-like environment.
-It demonstrates how predictive analytics solutions can be integrated into business workflows to support inventory optimization and demand planning.
-
------------
 📌 Business Recommendation
 -----------------------
 Based on model performance, businesses should adopt machine learning-based forecasting models such as Random Forest over traditional statistical methods when dealing with complex, high-dimensional retail data.
