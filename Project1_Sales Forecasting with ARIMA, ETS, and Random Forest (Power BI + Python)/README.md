@@ -157,10 +157,14 @@ Includes comprehensive analysis, model evaluation, and business recommendations 
 ---------------------
 📌 Key Highlights
 ------------------------------------------
-✔ End-to-end data science pipeline
-✔ Integration of statistical and machine learning models
-✔ Business-focused insights and recommendations
+✔ End-to-end data science pipeline  
+
+✔ Integration of statistical and machine learning models 
+
+✔ Business-focused insights and recommendations     
+
 ✔ Interactive dashboard for decision-making
+
 ✔ Real-world retail application scenario
 
 ------------------
