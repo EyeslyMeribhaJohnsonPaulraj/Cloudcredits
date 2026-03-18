@@ -89,7 +89,7 @@ This project was implemented as a prototype fraud detection system combining:
 - Machine learning modeling
 - Explainable AI
 - Interactive visualization
-- It reflects how analytics solutions can be deployed to support real-time fraud detection in financial systems.
+- It reflects how analytics solutions can be deployed to support real-time fraud detection in financial environments.
 
 ----------------------------------
 🔮 Scalability & Future Scope
