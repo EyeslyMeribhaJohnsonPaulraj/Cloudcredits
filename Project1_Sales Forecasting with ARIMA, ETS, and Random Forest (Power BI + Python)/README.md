@@ -171,4 +171,4 @@ Includes comprehensive analysis, model evaluation, and business recommendations 
 👩‍💻 Author
 
 Eyesly Meribha Johnson Paulraj
-Data Scientist | MSc Data Science
+| Data Scientist 
