@@ -59,10 +59,12 @@ This multi-source dataset enables robust and realistic forecasting.
 ------------------
 📈 Model Performance
 ------------------------
-Model	RMSE
-ARIMA	107,251
-ETS	161,663
-Random Forest	264.01 (Best Performance)
+| Model         | RMSE                          |
+| ------------- | ----------------------------- |
+| ARIMA         | 107,251                       |
+| ETS           | 161,663                       |
+| Random Forest | **264.01 (Best Performance)** |
+
 
 The Random Forest model significantly outperformed traditional statistical models, demonstrating high predictive accuracy and strong capability in handling complex, non-linear retail demand patterns.
 
