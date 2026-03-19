@@ -50,7 +50,7 @@ The project uses anonymized transaction data with highly imbalanced classes, rep
 -------------------
 📈 Model Performance
 ------------------------------
-The model achieved strong fraud detection performance with high recall, ensuring that most fraudulent transactions are correctly identified.
+The model achieved high recall, effectively identifying the majority of fraudulent transactions while minimizing false negatives.
 
 ------------------------
 📌 Key Insight
@@ -89,7 +89,8 @@ This project was implemented as a prototype fraud detection system combining:
 - Machine learning modeling
 - Explainable AI
 - Interactive visualization
-- It reflects how analytics solutions can be deployed to support real-time fraud detection in financial environments.
+
+It reflects how analytics solutions can be deployed to support real-time fraud detection in financial environments.
 
 ----------------------------------
 🔮 Scalability & Future Scope
