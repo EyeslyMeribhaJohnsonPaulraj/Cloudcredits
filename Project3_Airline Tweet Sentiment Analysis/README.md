@@ -12,6 +12,7 @@ This project was developed as part of a professional internship, where I contrib
 Airlines receive a large volume of customer feedback through social media platforms, making it difficult to manually analyse sentiment and identify key issues efficiently.
 
 Understanding customer sentiment is critical to:
+
 - Improve customer satisfaction
 - Identify recurring service issues
 - Enhance brand reputation
