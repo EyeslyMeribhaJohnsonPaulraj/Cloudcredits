@@ -52,9 +52,9 @@ The project uses real-world airline tweet data containing customer feedback with
 -----------
 📈 Model Performance
 ----------------
-The model achieved an accuracy of 74.04%, demonstrating effective classification of customer sentiment across multiple categories.
+The model achieved an accuracy of 74.04%, demonstrating reliable classification performance on real-world customer sentiment data.
 
-The model provides reliable baseline performance for sentiment classification tasks on real-world text data.
+The model provides a strong baseline for sentiment classification and can be further improved using advanced deep learning techniques.
 
 -----
 📌 Key Insight
@@ -65,6 +65,7 @@ Sentiment analysis reveals that negative feedback is often concentrated around s
 💼 Business Impact
 ---------------
 This solution demonstrates measurable potential to:
+
 - Analyse large volumes of customer feedback efficiently
 - Identify key drivers of negative sentiment
 - Improve customer experience strategies
@@ -74,6 +75,7 @@ This solution demonstrates measurable potential to:
 📊 Dashboard & Application
 ------------------------
 Developed an interactive dashboard and Streamlit application to:
+
 - Visualize sentiment distribution across airlines
 - Analyse trends in customer feedback
 - Identify common negative sentiment reasons
@@ -83,6 +85,7 @@ Developed an interactive dashboard and Streamlit application to:
 🚀 Implementation
 -------------
 This project was implemented as a prototype NLP system combining:
+
 - Text preprocessing
 - Machine learning classification
 - Interactive visualization
@@ -91,6 +94,7 @@ This project was implemented as a prototype NLP system combining:
 ----------
 🔮 Scalability & Future Scope
 --
+
 - Real-time sentiment monitoring pipelines
 - Integration with customer support systems
 - Deployment on cloud platforms
@@ -100,6 +104,7 @@ This project was implemented as a prototype NLP system combining:
 🧠 My Contribution
 ---
 My responsibilities included:
+
 - Performing text preprocessing and feature engineering
 - Building and evaluating a sentiment classification model
 - Analysing customer feedback patterns
@@ -109,6 +114,7 @@ My responsibilities included:
 -----
 🛠️ Tools & Technologies
 --------------
+
 - Python (Pandas, Scikit-learn, NLTK)
 - Streamlit
 - Matplotlib & Seaborn
