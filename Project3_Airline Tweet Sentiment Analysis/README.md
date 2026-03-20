@@ -1,134 +1,130 @@
-# Airline Sentiment Analysis using NLP & Machine Learning
+🧠 Airline Sentiment Analysis using NLP & Machine Learning
+--
+🚀 Project Overview
+-------------------
+Developed a Natural Language Processing (NLP) system to classify airline-related tweets into sentiment categories (Positive, Neutral, Negative) using machine learning techniques, supported by an interactive visualization dashboard and Streamlit application.
 
-A full-stack Natural Language Processing (NLP) project that classifies airline-related tweets into sentiment categories (Positive, Neutral, Negative) and extracts business insights using Machine Learning.
+This project was developed as part of a professional internship, where I contributed to building the sentiment classification model, performing text analysis, and generating business insights from customer feedback data.
+
+----------------------
+💼 Business Problem
+--------------------------------
+Airlines receive a large volume of customer feedback through social media platforms, making it difficult to manually analyse sentiment and identify key issues efficiently.
+
+Understanding customer sentiment is critical to:
+- Improve customer satisfaction
+- Identify recurring service issues
+- Enhance brand reputation
+- Support data-driven decision-making
+
+-------------------------------------------------------
+🌍 Real-World Application Scenario
+----------------
+This solution is designed for airline companies to monitor customer sentiment in real-time using social media data.
+
+It demonstrates how NLP models can be integrated into customer feedback systems to:
+- Track overall brand sentiment
+- Identify negative feedback trends
+- Improve customer service strategies
+- Support operational decision-making
+
+-------------
+📊 Dataset Overview
+----------------------
+The project uses real-world airline tweet data containing customer feedback with sentiment labels (positive, neutral, negative), representing real-world social media sentiment patterns.
+
+-----------------
+⚙️ Methodology
+----------
+1️⃣ Text Preprocessing
+- Removal of noise (mentions, hashtags, punctuation)
+- Tokenization, stopword removal, and lemmatization
+
+2️⃣ Feature Engineering
+- TF-IDF vectorization with bi-grams
+- Extraction of meaningful textual patterns
+
+3️⃣ Modeling
+- Multinomial Naive Bayes classifier
+- Optimized for efficient text classification
+
+-----------
+📈 Model Performance
+----------------
+The model achieved an accuracy of 74.04%, demonstrating effective classification of customer sentiment across multiple categories.
+
+The model provides reliable baseline performance for sentiment classification tasks on real-world text data.
+
+-----
+📌 Key Insight
+---------------------
+Sentiment analysis reveals that negative feedback is often concentrated around specific service issues, enabling airlines to identify and address operational weaknesses.
+
+-------------------
+💼 Business Impact
+---------------
+This solution demonstrates measurable potential to:
+- Analyse large volumes of customer feedback efficiently
+- Identify key drivers of negative sentiment
+- Improve customer experience strategies
+- Support data-driven decision-making in airline operations
+
+-----------------------
+📊 Dashboard & Application
+------------------------
+Developed an interactive dashboard and Streamlit application to:
+- Visualize sentiment distribution across airlines
+- Analyse trends in customer feedback
+- Identify common negative sentiment reasons
+- Enable real-time sentiment prediction
 
 ---
+🚀 Implementation
+-------------
+This project was implemented as a prototype NLP system combining:
+- Text preprocessing
+- Machine learning classification
+- Interactive visualization
+- It reflects how analytics solutions can be deployed to support real-time customer sentiment monitoring in service   industries.
 
-## Business Problem
-
-Airlines receive thousands of social media messages daily, making it difficult to manually analyze customer sentiment. This project builds a sentiment classification system that helps identify:
-
-- Overall brand sentiment
-- Frequent negative feedback categories
-- Trends in customer satisfaction over time
-
----
-
-## 📁 Dataset Overview
-
-**Source:** [Kaggle – Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
-
-| Column             | Description                                 |
-|--------------------|---------------------------------------------|
-| `text`             | Raw tweet content                           |
-| `airline`          | Airline name                                |
-| `airline_sentiment`| Sentiment (positive, neutral, negative)     |
-| `negativereason`   | Reason for negative feedback (if applicable)|
+----------
+🔮 Scalability & Future Scope
+--
+- Real-time sentiment monitoring pipelines
+- Integration with customer support systems
+- Deployment on cloud platforms
+- Use of advanced deep learning models (BERT, LSTM)
 
 ---
-
-## Methodology
-
-1. **Text Cleaning & Preprocessing**
-   - Removed mentions, hashtags, punctuation, digits
-   - Tokenization, stopword removal, lemmatization
-
-2. **Feature Engineering**
-   - TF-IDF vectorization (bi-grams, 5000 features)
-
-3. **Modeling**
-   - Algorithm: Multinomial Naive Bayes
-   - Accuracy: **74.04%**
-
-4. **Evaluation Metrics**
-   - Confusion Matrix
-   - Precision, Recall, F1-Score
-   - Classification Report
-
+🧠 My Contribution
 ---
+My responsibilities included:
+- Performing text preprocessing and feature engineering
+- Building and evaluating a sentiment classification model
+- Analysing customer feedback patterns
+- Developing a dashboard and application for visualization
+- Generating business insights from sentiment data
 
-## 📈 Visual Insights
+-----
+🛠️ Tools & Technologies
+--------------
+- Python (Pandas, Scikit-learn, NLTK)
+- Streamlit
+- Matplotlib & Seaborn
+- Git & GitHub
 
-| Page | Description |
-|------|-------------|
-| 1️⃣   | Accuracy, Confusion Matrix, Classification Report |
-| 2️⃣   | Sentiment Distribution by Airline |
-| 3️⃣   | Top 10 Reasons for Negative Sentiment |
-| 4️⃣   | Sentiment Trends Over Time (Simulated) |
-| 5️⃣   | Streamlit-based Sentiment Classifier UI |
+----
+📌 Key Highlights
+---------------
+✔ NLP-based sentiment classification
+✔ Real-world social media data analysis
+✔ Business-focused insights
+✔ Interactive dashboard and application
+✔ Scalable customer feedback solution
 
----
-
-## Web App (Streamlit)
-
-A live classifier built with **Streamlit** that predicts the sentiment of user-input airline tweets.
-
-**Demo Interface:**
-
-```bash
-streamlit run streamlit_app.py
-🧰 Tools & Technologies
-Python (Pandas, NumPy, Scikit-learn, NLTK)
-
-Matplotlib, Seaborn
-
-Streamlit (for deployment)
-
-Git & GitHub
-
---------------------------
-
-📦 Repository Structure
-
-
-Airline-Sentiment-Analysis/
-│
-├── sentiment_analysis_notebook.ipynb     # Full project code
-├── streamlit_app.py                      # Streamlit deployment
-├── sentiment_model.pkl                   # Trained sentiment classifier
-├── tfidf_vectorizer.pkl                  # Saved TF-IDF vectorizer
-├── requirements.txt                      # Python dependencies
-├── LICENSE                               # MIT License
-├── .gitignore                            # Ignored system files
-├── visuals/                              # Images used in README/report
-│   ├── confusion_matrix.png
-│   ├── sentiment_by_airline.png
-│   ├── top_negative_reasons.png
-│   └── sentiment_trends.png
-│
-├── Airline_Sentiment_Report_Eyesly.pdf   # 📘 Full project report
-└── README.md                             
-
-=======================
-
-📘 Project Report & Presentation
-📄 Download Full Report (PDF)
-
-🎞️ Presentation (PPTX)
-
-Explore the complete presentation of this project here:  
-👉 [Airline Sentiment Analysis using NLP & Machine Learning](https://gamma.app/docs/Airline-Sentiment-Analysis-using-NLP-Machine-Learning-gs99nc7kj2gmhfx)
-
- 
-===========
-
+-------------
 👩‍💻 Author
+-
 Eyesly Meribha Johnson Paulraj
-Data Scientist | MSc Data Science
-linkedin.com/in/eyesly-meribha-johnson-paulraj-7a8b49221
+| Data Scientist
 
-======================================
-
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-=======================
-
-💼 For Recruiters & Hiring Managers
-This project showcases:
-
-A complete machine learning pipeline
-Real-world text data analysis
-Business-driven insights
-Deployment-ready code
-Clean documentation and GitHub portfolio structure
