@@ -117,9 +117,13 @@ My responsibilities included:
 📌 Key Highlights
 ---------------
 ✔ NLP-based sentiment classification
+
 ✔ Real-world social media data analysis
+
 ✔ Business-focused insights
+
 ✔ Interactive dashboard and application
+
 ✔ Scalable customer feedback solution
 
 -------------
