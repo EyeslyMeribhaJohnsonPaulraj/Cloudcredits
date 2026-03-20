@@ -89,7 +89,8 @@ This project was implemented as a prototype NLP system combining:
 - Text preprocessing
 - Machine learning classification
 - Interactive visualization
-- It reflects how analytics solutions can be deployed to support real-time customer sentiment monitoring in service   industries.
+
+It reflects how analytics solutions can be deployed to support real-time customer sentiment monitoring in service   industries.
 
 ----------
 🔮 Scalability & Future Scope
