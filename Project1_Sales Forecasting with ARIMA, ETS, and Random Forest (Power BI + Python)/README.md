@@ -1,7 +1,7 @@
 🧠 Sales Forecasting System using ARIMA, ETS & Random Forest
 -------------------------------------------------------
 🚀 Project Overview
---------------
+-------------------
 
 Developed an end-to-end retail sales forecasting system using statistical models (ARIMA, ETS) and machine learning (Random Forest), supported by an interactive Power BI dashboard.
 The solution demonstrates how predictive analytics can be applied to real-world retail operations for data-driven decision-making.
